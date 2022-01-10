@@ -1,0 +1,83 @@
+//int main()
+//{
+//	//字符串结束标志是'/0'而不是'0'
+//	//'/0'是一个转义字符-0
+//	//0  数字0   与'/0'值相等
+//	//'0'  字符0  ascii码值 48
+//	//EOF end of file -文件结束标志 - -1
+//	return 0;
+//}
+//int main()
+//{
+	//int a = 10;
+	//int arr[] = { 1,2,3,4,5,6};
+	//printf("%d\n", sizeof(a));//4
+	//printf("%d\n", sizeof(int));//4
+	//printf("%d\n", sizeof(arr[1]));//4
+	//printf("%d\n", sizeof(arr));//24计算数组大小  单位是字节
+	//printf("%d\n", sizeof(arr) / sizeof(int));
+	//printf("%d\n", sizeof(arr) / sizeof(arr[0]));
+	//~对一个数的二进制按位取饭
+//	int a = 0;
+//	printf("%d\n", a);
+//	int b = ~a;
+//	printf("%d\n", b);//因为int类型是4个字节 32个bit 即000000000000000000000000 所以 ~a是 111111111111111111111111 
+//	//原码、反码、补码
+//	//第一位称为符号位
+//	//负数在内存中存储时，储存的是二进制的补码
+//	//补码-1 得到反码 反码符号位不变 其他按位取反
+//	//负数使用时  使用(打印)的是原码
+//	return 0;
+//}
+#include<stdio.h>
+#include<string.h>
+//int main()
+//{
+//	//int a = 10;
+//	//int b = a++;//后置++,先使用，再自++
+//	//printf("a=%d b=%d\n", a, b);//a=11   b=10
+//	//int c = 10;
+//	//int d = ++c;//前置++，先自++,再使用
+//	//printf("c=%d d=%d\n", c, d);//c=11    d=11
+//	int a = 10;
+//	int b = a--; //后置--, 先使用，再自--
+//	printf("a=%d b=%d\n", a, b);
+//	int c = 10;
+//	int d = --c;//前置--，先自--，再使用
+//	printf("c=%d d=%d\n", c, d);
+//}
+//(类型)强制类型转换符
+int main()
+{
+	int a = (int)3.14;
+	return 0;
+}
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+//int MAX(int x, int y)
+//{
+//	if (x > y)
+//		return x;
+//	else
+//		return y;
+//}
+//int main()
+//{
+//	int a, b;
+//	int max;
+//	scanf("%d%d", &a, &b);
+//	max = MAX(a, b);
+//	printf("较大值是%d\n", max);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a, b;
+//	scanf("%d%d", &a, &b);
+//	if (a < b)
+//		printf("%d\n", b);
+//	else
+//		printf("%d\n", a);
+//	return 0;
+//}
